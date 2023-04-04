@@ -1,4 +1,4 @@
-let examGrade = prompt("What is your examGrade: ")
+let examGrade = prompt("What is your Exam Grade: ")
 let info = document.querySelector("#info")//I accessed the <h2> tag which contains "info" ID.
 
 //I defined the smile icon under this.
