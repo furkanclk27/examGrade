@@ -1,6 +1,6 @@
 let examGrade = prompt("What is your Exam Grade: ")
 let info = document.querySelector("#info")//I accessed the <h2> tag which contains "info" ID.
-
+examGrade = parseFloat(examGrade)//This line may look weird. =D But my point here is if the user enter one more keyword (for example a string expression), this line parses the number part.
 //I defined the smile icon under this.
 const SMILE = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
